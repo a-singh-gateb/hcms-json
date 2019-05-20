@@ -1,0 +1,877 @@
+{
+	"info": {
+		"_postman_id": "8ab01a23-a636-4371-af36-107fc3b2d5cf",
+		"name": "HCMS  copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test-1",
+			"item": [
+				{
+					"name": "http://localhost:8300/rest/db/Sam",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8300/rest/db/Sam",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8300",
+							"path": [
+								"rest",
+								"db",
+								"Sam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8300/rest/db/delete/Sam",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Goog\"]\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8300/rest/db/delete/Sam",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8300",
+							"path": [
+								"rest",
+								"db",
+								"delete",
+								"Sam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8301/rest/stock/Sam",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8301/rest/stock/Sam",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8301",
+							"path": [
+								"rest",
+								"stock",
+								"Sam"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"AMAZ\",\"APPL\",\"TSLA\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"GooG\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/delete/Sam",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Goog\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/delete/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"delete",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Yaho\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Petter\",\n\t\"quotes\" : [\"yahoo\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Petter\",\n\t\"quotes\" : [\"Amaz\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Petter\",\n\t\"quotes\" : [\"Aman\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8301/rest/stock/Sam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8301/rest/stock/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8301",
+					"path": [
+						"rest",
+						"stock",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Goog\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Goog\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam?=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Goog\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/delete/Sam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/delete/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"delete",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/delete/Sam",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/delete/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"delete",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/Sam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/Sam",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"Sam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"userName\" : \"Sam\",\n\t\"quotes\" : [\"Goog\"]\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8300/rest/db/amit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8300/rest/db/amit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8300",
+					"path": [
+						"rest",
+						"db",
+						"amit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
